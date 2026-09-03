@@ -7,4 +7,7 @@ jobs:
      steps:
         - uses: actions/checkout@v4
         - name: say hello
-          run: echo "Hello from devops cohort"
+          run: | 
+              echo "Hello from devops cohort"
+              echo "I love Devops"
+              echo "Working so hard to become the best"
